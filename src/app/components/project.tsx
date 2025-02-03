@@ -18,7 +18,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="object-cover w-full h-56"
-                  src="/project1.jpg"
+                  src="/project1.jpg" // Ensure image is in the public folder
                   width={500}
                   height={500}
                 />
@@ -30,7 +30,7 @@ const Project = () => {
                     COUNTDOWN TIMER
                   </h1>
                   <p className="leading-relaxed text-blue-500 hover:underline line-clamp-2">
-                    "A next.js and Typescript powered website to track time with an interactive countdown feature"
+                    &quot;A next.js and Typescript powered website to track time with an interactive countdown feature&quot;
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const Project = () => {
                     Resume Builder
                   </h1>
                   <p className="leading-relaxed text-blue-500 hover:underline">
-                    "A Typescript based interactive resume built with HTML and CSS, allowing users to showcase their skills dynamically"
+                    &quot;A Typescript based interactive resume built with HTML and CSS, allowing users to showcase their skills dynamically&quot;
                   </p>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const Project = () => {
                     Todo List App
                   </h1>
                   <p className="leading-relaxed text-blue-500 hover:underline">
-                    "A react and typescript based app for managing and organizing your tasks efficiently."
+                    &quot;A react and typescript based app for managing and organizing your tasks efficiently.&quot;
                   </p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const Project = () => {
                     Currency Converter
                   </h1>
                   <p className="leading-relaxed text-blue-500 hover:underline">
-                    "A simple HTML and Typescript powered tool for converting currencies with real-time rates"
+                    &quot;A simple HTML and Typescript powered tool for converting currencies with real-time rates&quot;
                   </p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ const Project = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;

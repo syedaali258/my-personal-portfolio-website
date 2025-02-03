@@ -1,19 +1,18 @@
-import Image from "next/image";
 import Hero from "./components/hero";
 import Contact from "./components/contact";
 import Project from "./components/project";
 import About from "./components/about";
 import Skill from "./components/skill";
 
+// Removed the unused 'Image' import
 export default function Home() {
-  return(
+  return (
     <div>
       <Hero />
       <About />
-       <Skill/>
+      <Skill />
       <Project />
       <Contact />
-     
     </div>
-  )
+  );
 }
